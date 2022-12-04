@@ -1,0 +1,13 @@
+function DNAStrand(dna) {
+    const DNAComplement = {
+        'G' : 'C',
+        'C' : 'G', 
+        'T' : 'A',
+        'A' : 'T'
+      }
+      
+      return dna.split('').map(elem => DNAComplement[elem]).join('')
+}
+    
+
+console.log(DNAStrand('ATTGC'))
