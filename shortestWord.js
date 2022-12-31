@@ -7,7 +7,7 @@ function findShort(str){
 console.log(findShort('josepio e um cara bem legal'))
 
 //solucao que eu pensei
-function findShort(s){
+function findeeShort(s){
     var arr = s.split(' ');
     var smallest = arr[0];
     for (var i = 0; i < arr.length; i++) {
@@ -17,3 +17,5 @@ function findShort(s){
     }
     return smallest.length;
   }
+
+  console.log(findeeShort('josepio e um cara bem legal'))
